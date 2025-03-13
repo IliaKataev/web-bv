@@ -1,0 +1,23 @@
+
+.main-list {
+    list-style: none;
+}
+
+.winter{
+    list-style: url("/Practice2/Zadanie1/assets/icons/winter_16.png");
+    vertical-align: middle;
+}
+
+.winter li::marker{
+    padding: 0px;
+    margin: 0px;
+}
+
+.winter li{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    color: red;
+}
+
