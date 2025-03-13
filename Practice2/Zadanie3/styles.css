@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+section{
+    margin: 20px 10px 0px 10px;
+    background-color: rgb(35,97,103);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2{
+    margin: 0px;
+    padding: 10px 20px 10px 60px;
+    color: white;
+    background-color: rgb(14,73,78);
+}
+p{
+    padding: 10px 40px 10px 40px;
+    margin: 0px;
+    color: white;
+}
