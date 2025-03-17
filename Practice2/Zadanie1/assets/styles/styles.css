@@ -1,15 +1,18 @@
 
 .main-list {
     list-style: none;
+    padding-right: 40px ;
 }
 
 .winter{
     padding-left: 17px;
 }
+
 .winter li{
     display: flex;
     align-items: center;
 }
+
 .winter li::before{
     content: "";
     width: 1rem;
@@ -29,3 +32,39 @@
     list-style: url("/Practice2/Zadanie1/assets/icons/autumn_16.png");
 }
 
+h3{
+    width: 700px;
+    margin: 0;
+    margin: 0px 40px;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(154, 154, 154);
+}
+
+.white{
+    background-color: beige;
+    width: 50%;
+}
+
+.green{
+    color: white;
+    background-color: olive;
+}
+
+.brown{
+    color: white;
+    background-color: brown;
+}
+.orange{
+    color: white;
+    background-color: orange
+}
+
+li{
+    padding-left: 5px;
+}
