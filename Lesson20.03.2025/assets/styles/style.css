@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background-color: blanchedalmond;
+    background-color: rgb(91, 35, 68);
 }
 
 
@@ -31,4 +31,66 @@ h1{
 
 section:nth-child(odd){
     background-color: rgb(243, 202, 162);
+}
+
+.phone{
+    width: 250px;
+    height: 520px;
+    background-color: white;
+    border: 5px solid;
+    border-color: rgb(170, 170, 170) rgb(170, 170, 170) black black;
+    border-radius: 40px;
+    padding: 15px 10px;
+    margin: 50px auto;
+}
+
+.camera{
+    width: 15px;
+    height: 15px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: 2px auto;
+}
+
+.poloska{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.dinamic{
+    width:50px;
+    height: 6px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.inner-block{
+    height: 80%;
+    width: auto;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.main-button{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 18px auto;
 }
